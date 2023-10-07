@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>workout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/resonsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            background-color: white;
+            margin-top: -50px;
+            padding: 30px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 56px;
+        }
+
+        .center {
+            margin-top: 100px;
+            color: black;
+
+        }
+
+        .grid-item-contact {
+            text-align: center;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .center h1 {
+            color: rgb(255, 255, 255);
+            font-size: 60px;
+            text-align: center;
+            font-size: 3.5rem;
+            background: #3C77FF;
+            padding: 20px;
+            margin-bottom: 50px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .content1 h1 {
+            color: black;
+            font-size: 60px;
+
+        }
+
+        .content1 h2 {
+            color: black;
+            font-size: 30px;
+        }
+
+        .logo-details,
+        .media-icons {
+            color: #fff;
+            font-size: 30px;
+        }
+
+        .media-icons {
+            display: flex;
+
+        }
+
+        .media-icons a {
+            height: 40px;
+            width: 40px;
+            margin: 0 8px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            color: #fff;
+            font-size: 17px;
+            text-decoration: none;
+            transition: all 0.4s ease;
+        }
+
+        .media-icons a:nth-child(1) {
+            background: #4267B2;
+        }
+
+        .media-icons a:nth-child(1):hover {
+            color: #4267B2;
+            background: #fff;
+        }
+
+        .media-icons a:nth-child(2) {
+            background: #1DA1F2;
+        }
+
+        .media-icons a:nth-child(2):hover {
+            color: #1DA1F2;
+            background: #fff;
+        }
+
+        .media-icons a:nth-child(3) {
+            background: #E1306C;
+        }
+
+        .media-icons a:nth-child(3):hover {
+            color: #E1306C;
+            background: #fff;
+        }
+
+        .media-icons a:nth-child(4) {
+            background: #0077B5;
+        }
+
+        .media-icons a:nth-child(4):hover {
+            color: #0077B5;
+            background: #fff;
+        }
+
+        .media-icons a:nth-child(5) {
+            background: #FF0000;
+        }
+
+        .media-icons a:nth-child(5):hover {
+            color: #FF0000;
+            background: #fff;
+        }
+
+        @media (max-width: 1110px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+
+            .center h1 {
+                color: rgb(255, 255, 255);
+                font-size: 40px;
+
+
+            }
+
+            .content1 h2 {
+                color: black;
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html" class="logo"><span>Work</span>OutPlus+</a>
+        <!-- แทรกปุ่มเมนูเวลาย่อหน้าจอ -->
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar" class="fas fa-bars"></label>
+
+        <nav class="navbar">
+            <a href="./index.html">หน้าแรก</a>
+            <a href="./WorkOut.html">ท่าออกกำลังกาย</a>
+            <a href="./ProgramWorkout.html">โปรแกรมออกกำลังกาย</a>
+            <a href="./Contact.html">ติดต่อ</a>
+        </nav>
+    </header>
+
+    <div class="center">
+        <h1>ติดต่อ</h1>
+        <div class="grid-container">
+            <div class="grid-item-contact">
+                <div class="content1">
+                    <h2>641413019</h2>
+                    <h2>นาย ณัฐดนัย วงค์ษา </h2>
+                    <h2>282 หมู่3 ตำบล แม่สรวย </h2>
+                    <h2>อำเภอ แม่สรวย จังหวัด เชียงราย</h2>
+                    <h2>Email: 6414130109@crru.ac.th </h2>
+                    <h2>Tel.096-xxx-xxxx </h2>
+                </div>
+            </div>
+            <div class="grid-item-contact">
+                <div class="content1">
+                    <h2>ติดตามได้ที่</h2>
+                    <div class="media-icons">
+                        <span class="logo_name"></span>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="content">
+            <div class="top">
+                <div class="logo-details">
+                    <!-- <i class="fab fa-slack"></i> -->
+                    <span class="logo_name">WorkOutPlus+</span>
+
+                </div>
+
+                <div class="media-icons">
+                    <span class="logo_name"></span>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="link-boxes">
+                <ul class="box">
+          <div class="logo">
+            <img src="./img/weight.png" alt="Logo">
+          </div>
+        </ul>
+                <ul class="box">
+                    <li class="link_name">Quick Links</li>
+                    <li><a href="./index.html">หน้าแรก</a></li>
+                    <li><a href="./WorkOut.html">ท่าออกกำลังกาย</a></li>
+                    <li><a href="./ProgramWorkout.html">โปรแกรมออกกำลังกาย</a></li>
+                    <!-- <li><a href="#">Get started</a></li> -->
+                </ul>
+                <ul class="box">
+                    <li class="link_name">ติดต่อ</li>
+                    <h1>Natdanai Wongsa</h1>
+                    <h1>เบอร์โทร 096-xxx-xxxx</h1>
+
+                    <!-- <li><a href="#">Logo design</a></li>
+          <li><a href="#">Banner design</a></li> -->
+                </ul>
+
+                <ul class="box">
+          <li class="link_name">คำอธิบาย</li> 
+          <h1>เนื้อหาที่ใช้ในเว็บนี้ คือ การเวทเทรนนิ่ง (Weight training) หรือการยกเวท เป็นการออกกำลังกายที่ช่วยเผาผลาญไขมัน ที่ทำให้กล้ามเนื้อได้ออกแรงต้าน จากการยกน้ำหนัก ซึ่งจะช่วยเพิ่มความแข็งแรงทนทานของกล้ามเนื้อ</h1>
+        </ul>
+            </div>
+        </div>
+        <div class="bottom-details">
+            <div class="bottom_text">
+                <span class="copyright_text">Copyright © 2022 IT3 Natdanai Wongsa. All rights reserved</span>
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

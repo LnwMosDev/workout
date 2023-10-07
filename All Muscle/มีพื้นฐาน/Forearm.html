@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="../../css/nav.css">
+  <link rel="stylesheet" href="../../css/footer.css">
+  <link rel="stylesheet" href="../../css/resonsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <title>Document</title>
+
+  <style>
+    
+
+    .head-text {
+      /* padding: 0 130px; */
+      text-align: center;
+    }
+
+    .head-text h1 {
+      text-align: center;
+      color: black;
+      font-size: 26px;
+      
+    }
+
+    .grid-item-content-forearm-1 h1 {
+      font-size: 60px;
+      
+    }
+
+    span {
+      color: #3C77FF;
+    }
+
+    #newbie-button button {
+      display: none;
+    }
+
+    #newbie-button1 button {
+      display: none;
+    }
+    @media (max-width: 900px) {
+      #newbie-button1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+      }
+
+      #newbie-button1 button {
+        display: block;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <a href="../../index.html" class="logo"><span>Work</span>OutPlus+</a>
+    <input type="checkbox" id="menu-bar">
+    <label for="menu-bar" class="fas fa-bars"></label>
+
+    <nav class="navbar">
+      <a href="../../index.html">หน้าแรก</a>
+      <a href="../../WorkOut.html">ท่าออกกำลังกาย</a>
+      <a href="../../ProgramWorkout.html">โปรแกรมออกกำลังกาย</a>
+      <a href="../../Contact.html">ติดต่อ</a>
+    </nav>
+  </header>
+
+  <section>
+    <div class="grid-container-content-forearm">
+      <div class="grid-item-content-forearm-1">
+        <h1>แขน</h1>
+      </div>
+      <div class="head-text">
+        <h1>เลือกระดับความยาก</h1>
+        <a href="../มือใหม่/Forearm.html"><button style="--c:#188e55">มือใหม่</button> 
+          <a href="../มีพื้นฐาน/Forearm.html"><button style="--c:#3C77FF">มีพื้นฐาน</button>
+            <a href="../มืออาชีพ/Forearm.html"><button style="--c:#E95A49">มืออาชีพ</button>
+      </div>
+
+      <div class="forearm-options">
+        <div>
+          <div class="forearm" onclick="window.location.href='../../หน้าแขน/มีพื้นฐาน/Dumbbell Hammer Curl.html';">
+            <a href="../มือใหม่/Dumbbell Hammer Curl.html" id="newbie-button"><button>มือใหม่</button></a>
+
+            <img src="../../img/t1.png">
+            <h1>Dumbbell Hammer Curl</h1>
+            <h2> ดัมเบล แฮมเมอร์ เคอร์</h2>
+            <div class="separator"></div>
+            <h2><span>8-12</span> ครั้ง ทั้งหมด <span>3</span> เซ็ต</h2>
+            <h2>อุปกรณ์ : ดัมเบล น้ำหนัก : <span>4 Kg</span></h2>
+            <a href="../../หน้าแขน/มีพื้นฐาน/Dumbbell Hammer Curl.html" class="button1"
+            id="newbie-button1"><button>เลือก</button></a>
+          </div>
+        </div>
+        <div>
+          <div class="forearm" onclick="window.location.href='../../หน้าแขน/มีพื้นฐาน/Barbell Curl.html';">
+            <img src="../../img/t2.png">
+            <h1>Barbell Curl </h1>
+            <h2>บาร์เบล เคอร์</h2>
+            <div class="separator"></div>
+            <h2><span>8</span> ครั้ง ทั้งหมด <span>3</span> เซ็ต</h2>
+            <h2>อุปกรณ์ : บาร์เบล น้ำหนัก : <span>4 Kg</span></h2>
+            <a href="../../หน้าแขน/มีพื้นฐาน/Barbell Curl.html" class="button1" id="newbie-button1"><button>เลือก</button></a>
+          </div>
+        </div>
+        <div>
+          <div class="forearm" onclick="window.location.href='../../หน้าแขน/มีพื้นฐาน/Preacher Curls.html';">
+            <img src="../../img/t3.png">
+            <h1>Preacher Curls</h1>
+            <h2> พรีชเชอร์ เคอร์</h2>
+            <div class="separator"></div>
+            <h2><span>8-12</span> ครั้ง ทั้งหมด <span>3</span> เซ็ต</h2>
+            <h2>อุปกรณ์ : ดัมเบล น้ำหนัก : <span>4 Kg</span></h2>
+            <a href="../../หน้าแขน/มีพื้นฐาน/Preacher Curls.html" class="button1" id="newbie-button1"><button>เลือก</button></a>
+          </div>
+        </div>
+        <div>
+          <div class="forearm" onclick="window.location.href='../../หน้าแขน/มีพื้นฐาน/Dumbbell concentration curl.html';">
+            <img src="../../img/Dumbbell concentration curl.png">
+            <h1>Dumbbell concentration curl</h1>
+            <h2> ดัมเบล คอนเซนเทชั่น เคอร์</h2>
+            <div class="separator"></div>
+            <h2><span>8-12</span> ครั้ง ทั้งหมด <span>3</span> เซ็ต</h2>
+            <h2>อุปกรณ์ : ดัมเบล น้ำหนัก : <span>4 Kg</span></h2>
+            <a href="../../หน้าแขน/มีพื้นฐาน/Dumbbell concentration curl.html" class="button1" id="newbie-button1"><button>เลือก</button></a>
+          </div>
+        </div>
+        <div>
+          <div class="forearm" onclick="window.location.href='../../หน้าแขน/มีพื้นฐาน/Dumbbell reverse curl.html';">
+            <img src="../../img/Dumbbell reverse curl.png">
+            <h1>Dumbbell reverse curl</h1>
+            <h2> ดัมเบล รีเวิร์ส เคอร์</h2>
+            <div class="separator"></div>
+            <h2><span>8-12</span> ครั้ง ทั้งหมด <span>3</span> เซ็ต</h2>
+            <h2>อุปกรณ์ : ดัมเบล น้ำหนัก : <span>4 Kg</span></h2>
+            <a href="../../หน้าแขน/มีพื้นฐาน/Dumbbell reverse curl.html" class="button1" id="newbie-button1"><button>เลือก</button></a>
+          </div>
+        </div>
+        <div>
+          <div class="forearm" onclick="window.location.href='../../หน้าแขน/มีพื้นฐาน/Alternate dumbbell curl.html';">
+            <img src="../../img/Alternate dumbbell curl.png">
+            <h1>Alternate dumbbell curl</h1>
+            <h2> อัลเตอร์เนท ดัมเบล เคอร์</h2>
+            <div class="separator"></div>
+            <h2><span>8-12</span> ครั้ง ทั้งหมด <span>3</span> เซ็ต</h2>
+            <h2>อุปกรณ์ : ดัมเบล น้ำหนัก : <span>4 Kg</span></h2>
+            <a href="../../หน้าแขน/มีพื้นฐาน/Alternate dumbbell curl.html" class="button1" id="newbie-button1"><button>เลือก</button></a>
+          </div>
+        </div>
+        <div>
+          <div class="forearm" onclick="window.location.href='../../หน้าแขน/มีพื้นฐาน/Dumbbell Biceps Curl.html';">
+            <img src="../../img/Dumbbell Biceps Curl.png">
+            <h1>Dumbbell Biceps Curl</h1>
+            <h2> ดัมเบล ไบเซปส์ เคอร์</h2>
+            <div class="separator"></div>
+            <h2><span>8-12</span> ครั้ง ทั้งหมด <span>3</span> เซ็ต</h2>
+            <h2>อุปกรณ์ : ดัมเบล น้ำหนัก : <span>4 Kg</span></h2>
+            <a href="../../หน้าแขน/มีพื้นฐาน/Dumbbell Biceps Curl.html" class="button1" id="newbie-button1"><button>เลือก</button></a>
+          </div>
+        </div>
+        <div>
+          <div class="forearm" onclick="window.location.href='../../หน้าแขน/มีพื้นฐาน/Lying Triceps Extensions.html';">
+            <img src="../../img/Lying Triceps Extensions.png">
+            <h1>Lying Triceps Extensions</h1>
+            <h2> ไลลิ่ง ไทรเซ็ป เอ็กเทนชัน</h2>
+            <div class="separator"></div>
+            <h2><span>8-12</span> ครั้ง ทั้งหมด <span>3</span> เซ็ต</h2>
+            <h2>อุปกรณ์ : ดัมเบล น้ำหนัก : <span>4 Kg</span></h2>
+            <a href="../../หน้าแขน/มีพื้นฐาน/Lying Triceps Extensions.html" class="button1" id="newbie-button1"><button>เลือก</button></a>
+          </div>
+        </div>
+        <div>
+          <div class="forearm" onclick="window.location.href='../../หน้าแขน/มีพื้นฐาน/Pushdowns.html';">
+            <img src="../../img/pushdowns.png">
+            <h1>Pushdowns </h1>
+            <h2>พูชดาว</h2>
+            <div class="separator"></div>
+            <h2><span>8-12</span> ครั้ง ทั้งหมด <span>3</span> เซ็ต</h2>
+            <h2>อุปกรณ์ : เครื่องแมชชีน สายเคเบิล</h2>
+            <a href="../../หน้าแขน/มีพื้นฐาน/Pushdowns.html" class="button1" id="newbie-button1"><button>เลือก</button></a>
+          </div>
+        </div>
+        <div>
+          <div class="forearm" onclick="window.location.href='../../หน้าแขน/มีพื้นฐาน/Overhead Dumbbell Extensions.html';">
+            <img src="../../img/Overhead Dumbbell Extensions.png">
+            <h1>Overhead Dumbbell Extensions</h1>
+            <h2> โอเวอร์เฮ็ท ดัมเบล เอ็กเทนชัน</h2>
+            <div class="separator"></div>
+            <h2><span>8-12</span> ครั้ง ทั้งหมด <span>3</span> เซ็ต</h2>
+            <h2>อุปกรณ์ : ดัมเบล น้ำหนัก : <span>4 Kg</span></h2>
+            <a href="../../หน้าแขน/มีพื้นฐาน/Overhead Dumbbell Extensions.html" class="button1" id="newbie-button1"><button>เลือก</button></a>
+          </div>
+        </div>
+        <div>
+          <div class="forearm" onclick="window.location.href='../../หน้าแขน/มีพื้นฐาน/dips.html';">
+            <img src="../../img/dips.png">
+            <h1>Dips</h1>
+            <h2> ดิป</h2>
+            <div class="separator"></div>
+            <h2><span>8-12</span> ครั้ง ทั้งหมด <span>3</span> เซ็ต</h2>
+            <h2>อุปกรณ์ : โต๊ะหรือเก้าอี้</h2>
+            <a href="../../หน้าแขน/มีพื้นฐาน/dips.html" class="button1" id="newbie-button1"><button>เลือก</button></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="content">
+      <div class="top">
+        <div class="logo-details">
+          <!-- <i class="fab fa-slack"></i> -->
+          <span class="logo_name">WorkOutPlus+</span>
+
+        </div>
+
+        <div class="media-icons">
+          <span class="logo_name"></span>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="link-boxes">
+        <ul class="box">
+          <div class="logo">
+            <img src="../../img/weight.png" alt="Logo">
+          </div>
+        </ul>
+        <ul class="box">
+                    <li class="link_name">Quick Links</li>
+                   <li><a href="../../index.html">หน้าแรก</a></li>
+                    <li><a href="../../WorkOut.html">ท่าออกกำลังกาย</a></li>
+                    <li><a href="../../ProgramWorkout.html">โปรแกรมออกกำลังกาย</a></li>
+                    <!-- <li><a href="#">Get started</a></li> -->
+                </ul>
+        <ul class="box">
+          <li class="link_name">ติดต่อ</li>
+          <h1>Natdanai Wongsa</h1>
+          <h1>เบอร์โทร 096-xxx-xxxx</h1>
+
+          <!-- <li><a href="#">Logo design</a></li>
+          <li><a href="#">Banner design</a></li> -->
+        </ul>
+
+        <ul class="box">
+          <li class="link_name">คำอธิบาย</li> 
+          <h1>เนื้อหาที่ใช้ในเว็บนี้ คือ การเวทเทรนนิ่ง (Weight training) หรือการยกเวท เป็นการออกกำลังกายที่ช่วยเผาผลาญไขมัน ที่ทำให้กล้ามเนื้อได้ออกแรงต้าน จากการยกน้ำหนัก ซึ่งจะช่วยเพิ่มความแข็งแรงทนทานของกล้ามเนื้อ</h1>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-details">
+      <div class="bottom_text">
+        <span class="copyright_text">Copyright © 2022 IT3 Natdanai Wongsa. All rights reserved</span>
+
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

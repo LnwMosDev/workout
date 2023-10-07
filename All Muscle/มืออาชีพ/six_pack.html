@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="../../css/nav.css">
+  <link rel="stylesheet" href="../../css/footer.css">
+  <link rel="stylesheet" href="../../css/resonsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <title>หน้าท้อง</title>
+  <style>
+    
+    .head-text  {
+    /* padding: 0 130px; */
+    text-align: center;
+    }
+    .head-text h1 {
+      text-align: center;
+      color: black;
+      font-size: 26px;
+    }
+
+    .grid-item-content-forearm-1 h1{
+      font-size: 60px;
+    }
+    span {
+      color: #E95A49;
+    }
+    #newbie-button button {
+      display: none;
+    }
+
+    #newbie-button1 button {
+      display: none;
+    }
+    @media (max-width: 900px) {
+      #newbie-button1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+      }
+
+      #newbie-button1 button {
+        display: block;
+      }
+    }
+    
+  </style>
+</head>
+
+<body>
+  <header>
+    <a href="../../index.html" class="logo"><span>Work</span>OutPlus+</a>
+    <!-- แทรกปุ่มเมนูเวลาย่อหน้าจอ -->
+    <input type="checkbox" id="menu-bar">
+    <label for="menu-bar" class="fas fa-bars"></label>
+
+    <nav class="navbar">
+      <a href="../../index.html">หน้าแรก</a>
+      <a href="../../WorkOut.html">ท่าออกกำลังกาย</a>
+      <a href="../../ProgramWorkout.html">โปรแกรมออกกำลังกาย</a>
+      <a href="../../Contact.html">ติดต่อ</a>
+    </nav>
+  </header>
+
+  <section>
+    <div class="grid-container-content-forearm">
+      <div class="grid-item-content-forearm-1">
+        <h1>หน้าท้อง</h1>  
+      </div>
+      <div class="head-text">
+        <h1>เลือกระดับความยาก</h1>
+
+        <a href="../มือใหม่/back.html"><button  style="--c:#188e55">มือใหม่</button>
+          <a href="../มีพื้นฐาน/six_pack.html"><button style="--c:#3C77FF">มีพื้นฐาน</button>
+            <a href="../มืออาชีพ/six_pack.html"><button style="--c:#E95A49">มืออาชีพ</button>
+      </div>
+      <div class="forearm-options">
+        
+        <div>
+          <div class="forearm" onclick="window.location.href='../../หน้าท้อง/มืออาชีพ/Dumbbell side bend.html';">
+            <a href="../มืออาชีพ/dumbbell side bend.html" id="newbie-button"><button>มืออาชีพ</button></a>
+            <img src="../../img/dumbbell side bend.png">
+            <h1>Dumbbell side bend</h1>
+            <h2>ดัมเบล ไซด์ เบนด์</h2>
+            <div class="separator"></div>
+            <h2><span>8-12</span> ครั้ง ทั้งหมด <span>3</span> เซ็ต</h2>
+            <h2>อุปกรณ์ : ดัมเบล น้ำหนัก : <span>6 kg</span></h2>
+            <a href="../../หน้าท้อง/มืออาชีพ/Dumbbell side bend.html" class="button1" id="newbie-button1"><button>เลือก</button></a>
+          </div>
+        </div>
+        <div>
+          <div class="forearm" onclick="window.location.href='../../หน้าท้อง/มืออาชีพ/Lifts torso on an incline bench.html';">
+            <img src="../../img/Lifts torso on an incline bench.png">
+            <h1>Lifts torso on an incline bench</h1>
+            <h2>ลิฟส์ ทอร์โซ ออน แอน อินคลาย เบรช</h2>
+            <div class="separator"></div>
+            <h2><span>8-12</span> ครั้ง ทั้งหมด <span>3</span> เซ็ต</h2>
+            <h2>อุปกรณ์ : เบาะเอียง</h2>
+            <a href="../../หน้าท้อง/มืออาชีพ/Lifts torso on an incline bench.html" class="button1" id="newbie-button1"><button>เลือก</button></a>
+          </div>
+        </div>
+        <div>
+          <div class="forearm" onclick="window.location.href='../../หน้าท้อง/มืออาชีพ/Turns torso with barbell.html';">
+            <img src="../../img/Turns torso with barbell.png">
+            <h1>Turns torso with barbell</h1>
+            <h2>เทิร์น ทอร์โซ วิช บาร์เบล</h2>
+            <div class="separator"></div>
+            <h2><span>8-12</span> ครั้ง ทั้งหมด <span>3</span> เซ็ต</h2>
+            <h2>อุปกรณ์ :บาร์เบล</h2>
+            <a href="../../หน้าท้อง/มืออาชีพ/Turns torso with barbell.html" class="button1" id="newbie-button1"><button>เลือก</button></a>
+          </div>
+        </div>
+        <div>
+          <div class="forearm" onclick="window.location.href='../../หน้าท้อง/มืออาชีพ/Double twist on the bench.html';">
+            <img src="../../img/Double twist on the bench.png">
+            <h1>Double twist on the bench </h1>
+            <h2>ดับเบิ้ล ทวิท ออน เดอะ เบรช</h2>
+            <div class="separator"></div>
+            <h2><span>8-12</span> ครั้ง ทั้งหมด <span>3</span> เซ็ต</h2>
+            <h2>อุปกรณ์ : เบาะ</h2>
+            <a href="../../หน้าท้อง/มืออาชีพ/Double twist on the bench.html" class="button1" id="newbie-button1"><button>เลือก</button></a>
+          </div>
+        </div>
+        <div>
+          <div class="forearm" onclick="window.location.href='../../หน้าท้อง/มืออาชีพ/Bending body to abdominal muscles and legs.html';">
+            <img src="../../img/Bending body to abdominal muscles and legs.png">
+            <h1>Bending body to abdominal</h1>
+            <h1> muscles and legs</h1>
+            <h2>ดับเบิ้ล ทวิท ออน เดอะ เบรช</h2>
+            <div class="separator"></div>
+            <h2><span>8-12</span> ครั้ง ทั้งหมด <span>3</span> เซ็ต</h2>
+            <h2>อุปกรณ์ : เบาะ</h2>
+            <a href="../../หน้าท้อง/มืออาชีพ/Bending body to abdominal muscles and legs.html" class="button1" id="newbie-button1"><button>เลือก</button></a>
+          </div>
+        </div>
+        <div>
+          <div class="forearm" onclick="window.location.href='../../หน้าท้อง/มืออาชีพ/Oblique Raises on Parallel Bars.html';">
+            <img src="../../img/Oblique Raises on Parallel Bars.png">
+            <h1>Oblique Raises on Parallel Bars</h1>
+            <h2>ออพลิค ไรส์ ออน พาราเรล บาร์</h2>
+            <div class="separator"></div>
+            <h2><span>8-12</span> ครั้ง ทั้งหมด <span>3</span> เซ็ต</h2>
+            <h2>อุปกรณ์ : เบาะ</h2>
+            <a href="../../หน้าท้อง/มืออาชีพ/Oblique Raises on Parallel Bars.html" class="button1" id="newbie-button1"><button>เลือก</button></a>
+          </div>
+        </div>
+        <div>
+          <div class="forearm" onclick="window.location.href='../../หน้าท้อง/มืออาชีพ/Seated Barbell Twist.html';">
+            <img src="../../img/Seated Barbell Twist.png">
+            <h1>Seated Barbell Twist</h1>
+            <h2>ซีล บาร์เบล ทวิท</h2>
+            <div class="separator"></div>
+            <h2><span>8-12</span> ครั้ง ทั้งหมด <span>3</span> เซ็ต</h2>
+            <h2>อุปกรณ์ : บาร์เบล</h2>
+            <a href="../../หน้าท้อง/มืออาชีพ/Seated Barbell Twist.html" class="button1" id="newbie-button1"><button>เลือก</button></a>
+          </div>
+        </div>
+        <div>
+          <div class="forearm" onclick="window.location.href='../../หน้าท้อง/มืออาชีพ/Side Bend on Bench.html';">
+            <img src="../../img/Side Bend on Bench.png">
+            <h1>Side Bend on Bench</h1>
+            <h2>ไซด์ เบนด์ ออน เบรช</h2>
+            <div class="separator"></div>
+            <h2><span>8-12</span> ครั้ง ทั้งหมด <span>3</span> เซ็ต</h2>
+            <h2>อุปกรณ์ : เบาะเอียง</h2>
+            <a href="../../หน้าท้อง/มืออาชีพ/Side Bend on Bench.html" class="button1" id="newbie-button1"><button>เลือก</button></a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="content">
+      <div class="top">
+        <div class="logo-details">
+          <!-- <i class="fab fa-slack"></i> -->
+          <span class="logo_name">WorkOutPlus+</span>
+          
+        </div>
+        
+        <div class="media-icons">
+        <span class="logo_name"></span>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      
+      <div class="link-boxes">
+        <ul class="box">
+          <div class="logo">
+            <img src="../../img/weight.png" alt="Logo">
+          </div>
+        </ul>
+        <ul class="box">
+                    <li class="link_name">Quick Links</li>
+                   <li><a href="../../index.html">หน้าแรก</a></li>
+                    <li><a href="../../WorkOut.html">ท่าออกกำลังกาย</a></li>
+                    <li><a href="../../ProgramWorkout.html">โปรแกรมออกกำลังกาย</a></li>
+                    <!-- <li><a href="#">Get started</a></li> -->
+                </ul>
+        <ul class="box">
+          <li class="link_name">ติดต่อ</li>
+          <h1>Natdanai Wongsa</h1>
+          <h1>เบอร์โทร 096-xxx-xxxx</h1>
+          
+          <!-- <li><a href="#">Logo design</a></li>
+          <li><a href="#">Banner design</a></li> -->
+        </ul>
+       
+        <ul class="box">
+          <li class="link_name">คำอธิบาย</li> 
+          <h1>เนื้อหาที่ใช้ในเว็บนี้ คือ การเวทเทรนนิ่ง (Weight training) หรือการยกเวท เป็นการออกกำลังกายที่ช่วยเผาผลาญไขมัน ที่ทำให้กล้ามเนื้อได้ออกแรงต้าน จากการยกน้ำหนัก ซึ่งจะช่วยเพิ่มความแข็งแรงทนทานของกล้ามเนื้อ</h1>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-details">
+      <div class="bottom_text">
+        <span class="copyright_text">Copyright © 2022 IT3 Natdanai Wongsa. All rights reserved</span>
+       
+      </div>
+    </div>
+  </footer>
+  
+</body>
+
+</html>

@@ -1,0 +1,477 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@500&display=swap');
+
+
+:root {
+  --purple: #3C77FF;
+  --pink: #A7CBFF;
+  --gradient: linear-gradient(90deg, var(--purple), var(--pink));
+}
+
+* {
+  font-family: 'Sarabun', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+ 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*::selection {
+  background: var(--pink);
+  color: #fff;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background: #f9f9f9;
+}
+
+section {
+  min-height: 10vh;
+  padding: 0 1%;
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+}
+
+
+/*--------------------------------------------------------------------*/
+.grid-container-top {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0px;
+  background-image: url(./img/Rectangle\ 37.png);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-item-top-1 {
+  padding: 170px 250px 170px 250px;
+  border: 1px solid #ccc;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.grid-item-top-1 h1 {
+  color: black;
+  font-size: 60px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.grid-item-top-1 h2 {
+  font-size: 26px;
+}
+
+
+/*--------------------------------------------------------------------*/
+.grid-container-center {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 0px;
+
+}
+
+.grid-item-center-1 {
+  background-color: #FFC6C6;
+  /* border: 1px solid #ccc; */
+  text-align: center;
+}
+
+.grid-item-center-1 img {
+  max-width: 100%;
+  height: 350px;
+}
+
+.grid-item-center-2 {
+  background-color: #7FD1E3;
+  /* border: 1px solid #ccc; */
+  text-align: center;
+
+}
+
+.grid-item-center-2 img {
+  max-width: 100%;
+  height: 350px;
+}
+
+
+.grid-item-center-3 {
+  min-height: 600px; 
+  background-image: url(./img/community.png);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  /* border: 1px solid #ccc; */
+  text-align: center;
+
+}
+
+.grid-item-center-4 {
+  min-height: 600px; 
+  color: white;
+  background-image: url(./img/articles-1440.png);
+  background-repeat: none;
+  background-size: cover;
+  /* border: 1px solid #ccc; */
+  text-align: center;
+
+}
+
+.grid-item-center-1 h1,
+.grid-item-center-2 h1
+{
+  font-size: 45px;
+  color: #000;
+  margin-top: 50px;
+  font-weight: bolder;
+}
+.grid-item-center-3 h1{
+  margin-top: 50px;
+  font-size: 45px;
+  color: #000;
+}
+
+.grid-item-center-4 h1 {
+  margin-top: 50px;
+  font-size: 45px;
+}
+
+.grid-item-center-1 h2,
+.grid-item-center-2 h2,
+.grid-item-center-3 h2,
+.grid-item-center-4 h2 {
+  padding: 10px 150px 10px 150px;
+  font-size: 20px;
+}
+
+
+/*--------------------------------------------------------------------*/
+.grid-container-bottom {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0px;
+  background-image: url(./img/bottom1.png);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.grid-item-bottom-1 {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.bottom-option {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+}
+.bottom {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+.grid-container-bottom .button {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.grid-container-bottom .button a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+
+}
+.grid-container-bottom h1{
+  font-size: 40px;
+}
+.grid-container-bottom h2{
+  font-size: 20px;
+  color: white;
+}
+.grid-container-bottom h3{
+  font-size: 20px;
+text-align: center;
+}
+
+.bottom img {
+  width: 310px;
+  height: 220px;
+  object-fit: cover;
+}
+
+/* .bottom:hover {
+  background-color: #9dd3d7;
+  cursor: pointer;
+} */
+.bottom:hover {
+  transform: scale(1.07);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+
+
+/*----------------------หน้า2----------------------------------*/
+.features .box-container .box img {
+  height: 15rem;
+}
+
+.features .box-container .box p {
+  font-size: 1.2rem;
+  color: #666;
+  padding: 5rem 0
+}
+
+.review .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.review .box-container .box {
+  flex: 1 1 50rem;
+  background-color: #ffffff;
+  border-radius: .5rem;
+  border: 0.1rem solid rgba(0, 0, 0, .2);
+  
+  margin: 1.5rem;
+  padding: 1rem 1rem;
+  text-align: center;
+  transition: .2s linear;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+  -webkit-transition: .2s linear;
+  -moz-transition: .2s linear;
+  -ms-transition: .2s linear;
+  -o-transition: .2s linear;
+}
+
+.review .box-container .box img {
+  object-fit: cover;
+  height: 30rem;
+  width: 100%;
+}
+
+.heading {
+  text-align: center;
+  font-size: 3.5rem;
+  background:#3C77FF ;
+  padding: 20px;
+
+}
+.box-container{
+background-color: #ffffff;
+box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+
+}
+
+.review .heading{
+  margin-top: 80px;
+  color: #ffffff;
+  
+}
+
+
+/*----------------------Banner----------------------------------*/
+#carouselExampleCaptions{
+margin-top: 78px;
+}
+.carousel-inner h1 {
+  font-size: 6rem;
+}
+
+.carousel-item {
+  position: relative;
+  max-height: 600px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 750px;
+  object-fit: cover;
+  
+}
+
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 60.33%, #000 90.62%);
+  z-index: 1;
+}
+
+.carousel-caption {
+  z-index: 2;
+}
+
+
+/*--------------------------------------------------------*/
+
+.grid-item-content-forearm-1 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.forearm {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 30px;
+  width: 380px;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.forearm-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 50px;
+
+}
+
+.grid-item-content-forearm-1 h1 {
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.forearm h1 {
+  text-align: center;
+  color: #000;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.forearm h2 {
+  text-align: center;
+  color: #000;
+  font-size: 20px;
+}
+
+.forearm img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+
+}
+
+
+
+.forearm:hover{
+  transform: scale(1.07);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+
+
+/*----------------------หน้า3----------------------------------*/
+
+
+.grid-item-content-program{
+  margin-top: 80px;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-bottom: 15px;
+ 
+}
+
+.grid-item-content-program h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 3.5rem;
+  background-color: #3C77FF;
+  padding: 20px;
+}
+
+/* .side{
+  background-color: white;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+  padding: 2px; 
+  margin-top: -15px;
+} */
+
+
+/*----------------------ปุ่ม----------------------------------*/
+button {
+  /* --c: #188e55; */
+ 
+  box-shadow: 0 0 0 .1em inset var(--c);
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background:
+    var(--_g) calc(var(--_p, 0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p, 0%)) 0%,
+    var(--_g) calc(var(--_p, 0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p, 0%)) 100%;
+  background-size: 50.5% calc(var(--_p, 0%)/2 + .5%);
+  outline-offset: .1em;
+  transition: background-size .4s, background-position 0s .4s;
+}
+
+button:hover {
+  --_p: 100%;
+  transition: background-position .4s, background-size 0s;
+  color: w;
+  color: #fff;
+}
+
+button:active {
+  box-shadow: 0 0 9e9q inset #0009;
+  background-color: var(--c);
+  color: #fff;
+}
+
+button {
+  font-family: system-ui, sans-serif;
+  font-size: 2.2rem;
+  cursor: pointer;
+  padding: .1em .6em;
+  font-weight: bold;
+  border: none;
+
+}
+
+
+/*----------------------เส้น----------------------------------*/
+
+.separator {
+  border-top: 3px solid #ccc;
+  margin: 10px 0;
+}
+
+
+
+

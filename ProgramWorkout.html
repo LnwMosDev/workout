@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>โปรแกรมออกกำลังกาย</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/nav.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/resonsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <style>
+    #newbie-button1 button {
+      display: none;
+    }
+
+    @media (max-width: 900px) {
+      .box-container {}
+
+      #newbie-button1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+      }
+
+      #newbie-button1 button {
+        display: block;
+      }
+
+      .forearm-options {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .forearm {
+        width: 100%;
+        /* Make the items take 90% width of the container */
+        max-width: 320px;
+        /* Set a maximum width for the items */
+        margin: 10px;
+        /* Equal margin on top and bottom */
+        padding: 20px;
+        /* Add padding to the items */
+        box-sizing: border-box;
+        /* Include padding and border in the item's total width */
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <a href="./index.html" class="logo"><span>Work</span>OutPlus+</a>
+    <!-- แทรกปุ่มเมนูเวลาย่อหน้าจอ -->
+    <input type="checkbox" id="menu-bar">
+    <label for="menu-bar" class="fas fa-bars"></label>
+
+    <nav class="navbar">
+      <a href="./index.html">หน้าแรก</a>
+      <a href="./WorkOut.html">ท่าออกกำลังกาย</a>
+      <a href="./ProgramWorkout.html">โปรแกรมออกกำลังกาย</a>
+      <a href="./Contact.html">ติดต่อ</a>
+    </nav>
+  </header>
+
+  <section>
+    <div class="box-container">
+      <div class="grid-item-content-program">
+        <h1>เลือกโปรแกรมออกกำลังกาย</h1>
+      </div>
+
+      <div class="forearm-options">
+        <div>
+          <div class="forearm" onclick="window.location.href='./โปรแกรมออกกำลังกาย/program1.html';">
+            <img src="./img/program1.png">
+            <h1>Burn fat in 20mins</h1>
+            <div class="separator"></div>
+            <h2>เวลา : 20 นาที</h2>
+            <a href="./โปรแกรมออกกำลังกาย/program1.html" class="button1" id="newbie-button1"><button>เลือก</button></a>
+          </div>
+        </div>
+        <div>
+          <div class="forearm" onclick="window.location.href='./โปรแกรมออกกำลังกาย/program2.html';">
+            <img src="./img/program2.jpg">
+            <h1>Bodyweight Strength For Runners</h1>
+            <div class="separator"></div>
+            <h2>เวลา: 20 นาที</h2>
+            <a href="./โปรแกรมออกกำลังกาย/program2.html" class="button1" id="newbie-button1"><button>เลือก</button></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="content">
+      <div class="top">
+        <div class="logo-details">
+          <!-- <i class="fab fa-slack"></i> -->
+          <span class="logo_name">WorkOutPlus+</span>
+
+        </div>
+
+        <div class="media-icons">
+          <span class="logo_name"></span>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="link-boxes">
+        <ul class="box">
+          <div class="logo">
+            <img src="./img/weight.png" alt="Logo">
+          </div>
+        </ul>
+        <ul class="box">
+                    <li class="link_name">Quick Links</li>
+                    <li><a href="./index.html">หน้าแรก</a></li>
+                    <li><a href="./WorkOut.html">ท่าออกกำลังกาย</a></li>
+                    <li><a href="./ProgramWorkout.html">โปรแกรมออกกำลังกาย</a></li>
+                    <!-- <li><a href="#">Get started</a></li> -->
+                </ul>
+        <ul class="box">
+          <li class="link_name">ติดต่อ</li>
+          <h1>Natdanai Wongsa</h1>
+          <h1>เบอร์โทร 096-xxx-xxxx</h1>
+
+          <!-- <li><a href="#">Logo design</a></li>
+              <li><a href="#">Banner design</a></li> -->
+        </ul>
+
+        <ul class="box">
+          <li class="link_name">คำอธิบาย</li> 
+          <h1>เนื้อหาที่ใช้ในเว็บนี้ คือ การเวทเทรนนิ่ง (Weight training) หรือการยกเวท เป็นการออกกำลังกายที่ช่วยเผาผลาญไขมัน ที่ทำให้กล้ามเนื้อได้ออกแรงต้าน จากการยกน้ำหนัก ซึ่งจะช่วยเพิ่มความแข็งแรงทนทานของกล้ามเนื้อ</h1>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-details">
+      <div class="bottom_text">
+        <span class="copyright_text">Copyright © 2022 IT3 Natdanai Wongsa. All rights reserved</span>
+
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

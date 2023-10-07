@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WorkOutPlus+</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/nav.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/resonsive.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@500&display=swap" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<style>.content .link-boxes .box li a,h1{
+  color: #fff;
+  font-size: 18px; 
+  font-weight: 400;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: all 0.4s ease
+}</style>
+</head>
+
+<body>
+
+  <header>
+    <a href="./index.html" class="logo"><span>Work</span>OutPlus+</a>
+    <!-- แทรกปุ่มเมนูเวลาย่อหน้าจอ -->
+    <input type="checkbox" id="menu-bar">
+    <label for="menu-bar" class="fas fa-bars"></label>
+
+    <nav class="navbar">
+      <a href="./index.html">หน้าแรก</a>
+      <a href="./WorkOut.html">ท่าออกกำลังกาย</a>
+      <a href="./ProgramWorkout.html">โปรแกรมออกกำลังกาย</a>
+      <a href="./Contact.html">ติดต่อ</a>
+    </nav>
+  </header>
+
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/banner1.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>ออกกำลังกายได้ไม่ว่าคุณจะอยู่ที่บ้านหรือยิม </h1>
+          <!-- <p>Some representative placeholder content for the first slide.</p> -->
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/banner2_2.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>เริ่มออกกำลังกายได้ไม่ว่าคุณเคยมีประสบการณ์หรือเป็นมือใหม่</h1>
+          <!-- <p>Some representative placeholder content for the second slide.</p> -->
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/banner3.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>โปรแกรมที่ออกแบบอย่างมืออาชีพ
+            ช่วยลดการคาดเดาในการออกกำลังกาย</h1>
+          <!-- <p>Some representative placeholder content for the third slide.</p> -->
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- <section>
+        <div class="grid-container-top">
+            <div class="grid-item-top-1">
+                <div>
+                    <h1>ประโยชน์</h1>
+                    <h2>การออกกำลังกายช่วยให้การทำงานของสมองดีขึ้น จะเกิดขึ้นหลังจากออกกำลังกายในระดับปานกลางถึงหนัก ทำให้การคิดหรือการรับรู้ดีขึ้นและลดความรู้สึกวิตกกังวลในผู้ใหญ่ การออกกำลังกายเป็นประจำสามารถช่วยให้ทักษะการคิด 
+                    การเรียนรู้และการตัดสินใจดีขึ้นนอกจากนี้ยังสามารถ
+                    ลดความเสี่ยงของภาวะซึมเศร้า ความวิตกกังวล และช่วยให้นอนหลับได้ดี</h2>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+  <section>
+    <div class="grid-container-center" data-aos="fade-down">
+      <div class="grid-item-center-1">
+        <div>
+          <h1>Workout Videos</h1>
+          <h2>วิดีโอการออกกำลังกายมากมายทำให้คุณสามารถออกกำลังกายได้ไม่ว่าคุณจะอยู่ที่บ้านหรือบนท้องถนน </h2>
+          <img src="./img/workouts-1440.png" alt="">
+        </div>
+      </div>
+      <div class="grid-item-center-2">
+        <div>
+          <h1>Workout Programs</h1>
+          <h2>โปรแกรมที่ออกแบบอย่างมืออาชีพช่วยลดการคาดเดาในการออกกำลังกาย</h2>
+          <img src="./img/programs-1440.png" alt="">
+        </div>
+
+      </div>
+      <div class="grid-item-center-3">
+        <div>
+          <h1>For Beginners</h1>
+          <h2>เริ่มออกกำลังกายได้ไม่ว่าคุณเคยมีประสบการณ์หรือเป็นมือใหม่</h2>
+
+        </div>
+      </div>
+      <div class="grid-item-center-4">
+        <div>
+          <h1>Simple Explanation</h1>
+          <h2>คำอธิบายท่าเล่นที่ง่ายต่อการเข้าใจ</h2>
+        </div>
+      </div>
+  </section>
+
+  <section>
+    <div class="grid-container-bottom" data-aos="fade-up">
+
+      <div class="grid-item-bottom-1">
+        <h1>Not sure where to start?</h1>
+        <h2>ไม่แน่ใจว่าจะเริ่มจากตรงไหนใช่ไหม?</h2>
+      </div>
+      <div class="bottom-option" data-aos="fade-up">
+        <div>
+          <h2>ระดับความยาก : มือใหม่</h2>
+          <div class="bottom" onclick="window.location.href='./หน้าแขน/มือใหม่/Dumbbell Hammer Curl.html';">
+            <img src="img/hammer-curls.jpg">
+            <h3>Dumbbell Hammer Curl</h3>
+            <h3> ดัมเบล แฮมเมอร์ เคอร์</h3>
+            <hr>
+            <h3>5-8 ครั้ง ทั้งหมด 3 เซ็ต</h3>
+            <h3>อุปกรณ์ : ดัมเบล น้ำหนัก : 2 Kg</h3>
+          </div>
+        </div>
+        <div>
+          <h2>ระดับความยาก : มีพื้นฐาน</h2>
+          <div class="bottom" onclick="window.location.href='./หน้าแขน/มีพื้นฐาน/Barbell Curl.html';">
+            <img src="img/Barbell-curl-.jpg">
+            <h3>Barbell Curl </h3>
+            <h3>บาร์เบล เคอร์</h3>
+            <hr>
+            <h3>8 ครั้ง ทั้งหมด 3 เซ็ต</h3>
+            <h3>อุปกรณ์ : บาร์เบล น้ำหนัก : 5 Kg</h3>
+          </div>
+        </div>
+        <div>
+          <h2>ระดับความยาก : มืออาชีพ</h2>
+          <div class="bottom" onclick="window.location.href='./หน้าแขน/มืออาชีพ/Preacher Curls.html';">
+            <img src="img/Preacher Curls.jpg">
+            <h3>Preacher Curls</h3>
+            <h3> พรีชเชอร์ เคอร์</h3>
+            <hr>
+            <h3>12 ครั้ง ทั้งหมด 3 เซ็ต</h3>
+            <h3>อุปกรณ์ : ดัมเบล น้ำหนัก : 7.5 Kg</h3>
+          </div>
+        </div>
+
+      </div>
+      <div class="button">
+        <a href="./WorkOut.html">ดูท่าออกกำลังกายทั้งหมด</a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="content">
+      <div class="top">
+        <div class="logo-details">
+          <!-- <i class="fab fa-slack"></i> -->
+          <span class="logo_name">WorkOutPlus+</span>
+        </div>
+        <div class="media-icons">
+          <span class="logo_name"></span>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="link-boxes">
+        <ul class="box">
+          <div class="logo">
+            <img src="./img/weight.png" alt="Logo">
+          </div>
+        </ul>
+        <ul class="box">
+                    <li class="link_name">Quick Links</li>
+                    <li><a href="./index.html">หน้าแรก</a></li>
+                    <li><a href="./WorkOut.html">ท่าออกกำลังกาย</a></li>
+                    <li><a href="./ProgramWorkout.html">โปรแกรมออกกำลังกาย</a></li>
+                    <!-- <li><a href="#">Get started</a></li> -->
+                </ul>
+        <ul class="box">
+          <li class="link_name">ติดต่อ</li>
+          <h1>Natdanai Wongsa</h1>
+          <h1>เบอร์โทร 096-xxx-xxxx</h1>
+          <!-- <li><a href="#">Logo design</a></li>
+              <li><a href="#">Banner design</a></li> -->
+        </ul>
+
+        <ul class="box">
+          <li class="link_name">คำอธิบาย</li> 
+          <h1>เนื้อหาที่ใช้ในเว็บนี้ คือ การเวทเทรนนิ่ง (Weight training) หรือการยกเวท เป็นการออกกำลังกายที่ช่วยเผาผลาญไขมัน ที่ทำให้กล้ามเนื้อได้ออกแรงต้าน จากการยกน้ำหนัก ซึ่งจะช่วยเพิ่มความแข็งแรงทนทานของกล้ามเนื้อ</h1>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-details">
+      <div class="bottom_text">
+        <span class="copyright_text">Copyright © 2022 IT3 Natdanai Wongsa. All rights reserved</span>
+
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    function redirectToPage(url) {
+        window.location.href = url;
+    }
+    
+  </script>
+</body>
+
+</html>

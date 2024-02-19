@@ -1,7 +1,7 @@
 # HTML+CSS# workout website
 * Natdanai Wongsa
 ### <ins> </ins> 
-<img src="images/image1.png" alt="image1" width="820" height="1000" align="center"/>
+<img src="images/image1.png" alt="image1" width="920" height="1000" align="center"/>
 
 ### <ins> </ins> 
 <img src="images/iamge2.png" alt="image2" width="820" height="800" align="center"/>

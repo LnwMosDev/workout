@@ -21,5 +21,4 @@
 ### <ins>  </ins> 
 <img src="images/image7.png" alt="image7" width="820" height="800" align="center"/>
 
-### <ins>  </ins> 
-<img src="images/image8.png" alt="image8" width="820" height="800" align="center"/>
+
